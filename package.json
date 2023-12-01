@@ -1,0 +1,16 @@
+{
+  "name": "advent2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@callstack/eslint-config": "^14.1.0",
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0"
+  }
+}
