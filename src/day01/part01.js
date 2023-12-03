@@ -1,4 +1,4 @@
-const readFile = require("./readFile");
+const readFile = require("../readFile");
 
 function x(data) {
   const lines = data.split("\n");
@@ -25,9 +25,9 @@ function x(data) {
 const firstArg = process.argv[2];
 
 // Log the first argument to the console
-console.log(firstArg);
 
 if (firstArg) {
+  console.log(firstArg);
   const data = readFile(firstArg);
 
   const result = x(data);
